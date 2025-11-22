@@ -2,7 +2,12 @@ import os
 from box.exceptions import BoxValueError
 import yaml
 from textSummarizer.logging import logger
-from ensure import ensure_annotations
+# try to import ensure_annotations; fall back to a no-op if import fails
+try:
+    from ensure import ensure_annotations
+except Exception:
+    def ensure_annotations(obj):
+        return obj
 from box import ConfigBox
 from pathlib import Path
 from typing import Any

@@ -104,7 +104,7 @@ The IAM user must have permissions for:
 Example:
 
 ```
-566373416292.dkr.ecr.us-east-1.amazonaws.com/text-s
+*******6292.dkr.ecr.us-east-1.amazonaws.com/text-s
 ```
 
 Save the **ECR URI** – it’s needed for GitHub Secrets.
@@ -166,7 +166,7 @@ Add the following:
 | `AWS_ACCESS_KEY_ID`     | your IAM key                                    |
 | `AWS_SECRET_ACCESS_KEY` | your IAM secret                                 |
 | `AWS_REGION`            | us-east-1                                       |
-| `AWS_ECR_LOGIN_URI`     | `566373416292.dkr.ecr.ap-south-1.amazonaws.com` |
+| `AWS_ECR_LOGIN_URI`     | `****6292.dkr.ecr.ap-south-1.amazonaws.com` |
 | `ECR_REPOSITORY_NAME`   | `simple-app`                                    |
 
 ---
